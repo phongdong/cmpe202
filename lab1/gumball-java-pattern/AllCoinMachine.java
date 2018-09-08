@@ -8,16 +8,19 @@ public class AllCoinMachine extends GumballMachine  {
 	
 	public void insertQuarter() {
 		insertedCoin += 25;
+		System.out.println("You inserted a quarter");
 		Util.checkState(insertedCoin, state);
 	}
 	
 	public void insertDime() {
 		insertedCoin += 10;
+		System.out.println("You inserted a dime");
 		Util.checkState(insertedCoin, state);
 	}
 	
-	public void insertNicel() {
+	public void insertNickel() {
 		insertedCoin += 5;
+		System.out.println("You inserted a nickel");
 		Util.checkState(insertedCoin, state);
 	}
 	

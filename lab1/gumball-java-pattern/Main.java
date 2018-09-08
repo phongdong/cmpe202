@@ -48,9 +48,10 @@ public class Main {
 		allGB.insertDime();
 		allGB.insertDime();
 		
-		allGB.insertQuarter();
-		allGB.insertQuarter();
+		//allGB.insertQuarter();
+		//allGB.insertQuarter();
 		
+		allGB.turnCrank();
 		allGB.turnCrank();
 		
 		
