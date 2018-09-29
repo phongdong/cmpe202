@@ -1,15 +1,29 @@
+Explanation:
+------------------------------
+
+- Observer pattern is chosen in my design because there is one-to-many relationship between Restaurant Object and Customer Object, one-to-many relationship between Restaurant Object and Table Object. Whenever Customer or Table Object is modified, Restaurent will be notified automatically.
+
+
+
+
+Objects
+------------------------------
+
 Customer
 - Name
 - Phone
 - NoOfParty
 
-- Response whether "leave" of Not
+- responses whether "leave" of Not
 
 
 Table
 - Id
 - NumOfSeats
 - isAvailable
+
+- updates state
+
 
 Restaurant
 - customers
